@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Snowfall from 'react-snowfall';
+// import Form from './component/form/Form';
+import Calculation from './component/calculationPage/Calculation';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     
+    <Snowfall snowflakeCount={200} color="white"/>
+ 
+      <Calculation/>
+</div>
+     
   );
 }
 
