@@ -24,6 +24,7 @@ const Result=(props)=>{
     return(<>
     {recomended&&<div onClick={()=>setRecomended(false)} style={{
       left:"15%",
+      color:"whitesmoke",
       boxShadow:"2px 20px 80px red",
        height:"50px",
        width:"70%",

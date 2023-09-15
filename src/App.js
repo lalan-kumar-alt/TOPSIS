@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
      
-    <Snowfall snowflakeCount={200} color="white"/>
+    {/* <Snowfall snowflakeCount={10} color="gray"/> */}
  
       <Calculation/>
 </div>

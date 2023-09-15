@@ -136,7 +136,7 @@ const idealBestWorst=()=>{
    
     return(
         <div className="container" >
-           <h1>TOPSIS - Technique for Order Preference by Similarity to Ideal Solution</h1>
+           <h1 style={{color:'whitesmoke'}}>TOPSIS - Technique for Order Preference by Similarity to Ideal Solution</h1>
       {screen.s1&&<h2 style={ {paddingTop:"150px"}}>Enter Data</h2>}
            {screen.s1&&<div className="table">
       <table>
@@ -198,10 +198,10 @@ const idealBestWorst=()=>{
       </table>
     </div>}
 
-            {screen.s1&&<button onClick={normalize} className="dataSubmit">Submit & Next</button>}
+            {screen.s1&&<button style={{color:"whitesmoke"}} onClick={normalize} className="dataSubmit">Submit & Next</button>}
             {/* STEP-1  */}
             
-            {screen.s2&&<h2 style={ {paddingTop:"150px"}}>After Normalization</h2>}
+            {screen.s2&&<h2  style={ {paddingTop:"150px" }}>After Normalization</h2>}
            {screen.s2&&<div className="table">
       <table>
         <tr>
@@ -279,7 +279,7 @@ const idealBestWorst=()=>{
       </table>
       
     </div>}
-    {screen.s2next&&<button onClick={idealBestWorst} className="dataSubmit">Next</button>}
+    {screen.s2next&&<button onClick={idealBestWorst} style={{color:"whitesmoke"}} className="dataSubmit">Next</button>}
     {ans===1&&<button onClick={result} style={{backgroundColor:"green"}} className="dataSubmit">Result</button>}
         {screen.s3&&<Result answer={edPerformanceScore} ans={ans} screen={screen} result={result}  siMax={edBest} siMin={edWorst} siMaxMin={edBestWorst} score={edPerformanceScore} />}
         </div>

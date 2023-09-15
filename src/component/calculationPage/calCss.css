@@ -1,20 +1,21 @@
  
 th,td{
-  color: white;
+  color: black;
   margin: 2px;
 }
 h1{
   position:fixed;
-  color: white;
+  color: black;
   width:100vw;
   padding: 40px;
-  background-color: rgb(3, 3, 62);
-  border-bottom: 1px solid white;
-  box-shadow: inset 0px 0px 20px  white;
+  background-color: gray;
+  text-shadow: 2px 0px 2px black;
+  border-bottom: 1px solid black;
+  box-shadow: inset 0px 0px 20px  black;
 }
 h2{
   padding-top: 10px;
-  color: white;
+  color: black;
   align-items: center;
   margin: auto;
   text-decoration:underline;
@@ -28,41 +29,41 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 2px;
 }
 br{
-  color: white;
+  color: black;
 }
 .ij-container{
   background-color: transparent;
   padding: 10px 3px;
   margin: 2px;
-color: white;
+color: black;
 text-align: center;
 font-size: larger;
 border-radius: 8px;
-border: 2px solid white;
+border: 2px solid black;
 }
 .watage{
   background-color: transparent;
   padding: 3px 1px;
   margin: 2px;
-color: white;
+color: black;
 text-align: center;
 font-size: larger;
 border-radius: 40%;
-border: 2px solid white;
+border: 2px solid black;
 }
 .title{
   font-size: 20px;
-  border-top: 2px solid white;
+  border-top: 2px solid black;
 }
 .ij-NormalisedcCntainer{
   background-color: transparent;
   padding: 10px 3px;
   margin: 2px;
-color: white;
+color: black;
 text-align: center;
 font-size: larger;
 border-radius: 8px;
-border: 2px solid white;
+border: 2px solid black;
 min-width: 200px;
 }
 .table{
@@ -77,14 +78,14 @@ min-width: 200px;
   padding: 10px 7px;
   font-size: 20px;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px white;
+  box-shadow: 2px 2px 2px black;
   border: 0px;
   background-color: rgb(4, 4, 101);
-  color: white;
+  color: black;
   transition: transform 1s;
 }
 .dataSubmit:hover{
-  transform: scale(1.2);
+  transform: scale(1.02);
 }
 .dataSubmit:active{
   box-shadow: 0px 0px 0px black;
@@ -100,7 +101,7 @@ input{
   transition: transform 1s;
 }
 input:hover{
-  transform: scale(1.1);
+  transform: scale(1.01);
   box-shadow: inset 0px 0px 40px rgb(197, 197, 241);
 }
 input:focus{
